@@ -1,0 +1,3 @@
+{"customer_id": 1, "account_id": 1, "transaction_type": "deposit"}
+{"customer_id": 1, "account_id": 2, "transaction_type": "deposit"}
+{"customer_id": 2, "account_id": 1, "transaction_type": "deposit"}
