@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: counttransaction
+  stateDir: /tmp/stream
+server:
+  port: 8080
+  host: localhost
+store:
+  name: counttx3
+stream:
+  config:
+    bootstrapservers: localhost:9092
+    clientid: custtx
+    applicationid: custtx
+    cachemaxbytes: 0
